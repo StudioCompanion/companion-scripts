@@ -1,7 +1,7 @@
 {
-  "name": "@studiocompanion/styles",
+  "name": "@studiocompanion/scripts",
   "version": "1.0.0",
-  "description": "Complete styles package for Companion projects",
+  "description": "Complete scripts package for Companion projects",
   "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
   "license": "MIT",
   "preconstruct": {
