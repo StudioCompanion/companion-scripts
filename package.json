@@ -1,0 +1,48 @@
+{
+  "name": "companion-styles",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Monorepo for style configs used at Companion",
+  "repository": "https://github.com/StudioCompanion/eslint-config-companion.git",
+  "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0
+      ]
+    }
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "postinstall": "preconstruct dev",
+    "dev": "preconstruct dev",
+    "build": "preconstruct build",
+    "release": "yarn build && yarn publish:packages",
+    "validate": "preconstruct validate",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@preconstruct/cli": "^2.0.7",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "prettier": "^2.2.1"
+  }
+}
