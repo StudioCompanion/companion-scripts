@@ -1,0 +1,17 @@
+{
+  "name": "@studiocompanion/styles",
+  "version": "1.0.0",
+  "description": "Complete styles package for Companion projects",
+  "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
+  "license": "MIT",
+  "preconstruct": {
+    "entrypoints": [
+      "eslint.js",
+      "prettier.js"
+    ]
+  },
+  "dependencies": {
+    "@studiocompanion/eslint-config": "^1.0.0",
+    "@studiocompanion/prettier": "^1.0.0"
+  }
+}

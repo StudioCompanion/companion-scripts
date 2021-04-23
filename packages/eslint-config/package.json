@@ -1,0 +1,21 @@
+{
+  "name": "@studiocompanion/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration for companion projects in TS & JS react",
+  "main": "dist/studiocompanion-eslint-config.cjs.js",
+  "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.js"
+    ]
+  }
+}
