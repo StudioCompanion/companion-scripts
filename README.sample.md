@@ -24,7 +24,7 @@ List main libraries, frameworks used including versions (React, Nextjs etc...)
 
 What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links. 
 
-** REALLY IMPORTANT ** Absolutely 100% document the version of node you're using, you never know when a project will be resurrected. You could also make an `.nvmrc` file in the repo too.
+**REALLY IMPORTANT** Absolutely 100% document the version of node you're using, you never know when a project will be resurrected. You could also make an `.nvmrc` file in the repo too.
 
 ### Setting up Dev
 
