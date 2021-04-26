@@ -1,4 +1,4 @@
 {
-  "main": "dist/studiocompanion-styles-eslint.cjs.js",
-  "module": "dist/studiocompanion-styles-eslint.esm.js"
+  "main": "dist/studiocompanion-scripts-eslint.cjs.js",
+  "module": "dist/studiocompanion-scripts-eslint.esm.js"
 }

@@ -1,4 +1,4 @@
 {
-  "main": "dist/studiocompanion-styles-prettier.cjs.js",
-  "module": "dist/studiocompanion-styles-prettier.esm.js"
+  "main": "dist/studiocompanion-scripts-prettier.cjs.js",
+  "module": "dist/studiocompanion-scripts-prettier.esm.js"
 }
