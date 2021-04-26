@@ -25,12 +25,14 @@
     }
   },
   "scripts": {
+    "changeset": "changeset",
     "prepare": "husky install",
     "postinstall": "preconstruct dev",
     "dev": "preconstruct dev",
     "build": "preconstruct build",
-    "release": "yarn build && yarn publish:packages",
-    "validate": "preconstruct validate"
+    "release": "yarn build && changeset publish",
+    "validate": "preconstruct validate",
+    "version-packages": "changeset version"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
@@ -43,5 +45,8 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^6.0.0",
     "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.16.0"
   }
 }
