@@ -1,0 +1,21 @@
+{
+  "name": "@studiocompanion/husky",
+  "version": "1.0.0",
+  "description": "Install Companion huksy hooks to your project!",
+  "main": "dist/studiocompanion-eslint-config.cjs.js",
+  "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "glob": "^7.1.6",
+    "husky": "^6.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "preconstruct": {
+    "entrypoints": [
+      "index.js"
+    ]
+  }
+}
