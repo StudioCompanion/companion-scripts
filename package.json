@@ -30,8 +30,7 @@
     "dev": "preconstruct dev",
     "build": "preconstruct build",
     "release": "yarn build && yarn publish:packages",
-    "validate": "preconstruct validate",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "validate": "preconstruct validate"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
