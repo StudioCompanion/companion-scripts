@@ -14,7 +14,6 @@ We've got:
 - [`@studiocompanion/scripts`](/packages/scripts)
 - [`@studiocompanion/eslint-config`](/packages/eslint-config)
 - [`@studiocompanion/prettier`](/packages/prettier)
-- [`@studiocompanion/husky`](/packages/husky)
 
 If you've got an idea for a new one we'd find useful, why not submit a PR!
 
