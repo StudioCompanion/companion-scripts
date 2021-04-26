@@ -1,5 +1,5 @@
 {
-  "name": "companion-styles",
+  "name": "companion-scripts--root",
   "private": true,
   "version": "0.0.0",
   "description": "Monorepo for style configs used at Companion",
