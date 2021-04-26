@@ -1,6 +1,6 @@
 # Companion Scripts
 
-Monorepo for [Companion Studio](https://www.companion.studio/) script packages.
+Monorepo for [Companion Studio](https://www.companion.studio/) script packages. Inpsired by [`react-scripts`](https://github.com/react-workspaces/create-react-app/tree/master/packages/react-scripts) and [`kcd-scripts`](https://github.com/kentcdodds/kcd-scripts)
 This just helps set up a project quicker and more consistently, be enforcing the same `eslint`, `prettier` configs and then using `husky` to make sure they're actually used in a project.
 
 ## Authors
