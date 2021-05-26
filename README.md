@@ -39,8 +39,26 @@ The project is largely dev tools and thus doesn't require any transpiling as of 
 
 ## Deploying / Publishing
 
-We have `semantic-release-action` creating releases to NPM for us based on the [Conventional Commits guidelines](https://www.conventionalcommits.org/en/v1.0.0-beta.4/).
+We have `changesets` installed to handle versioning and publishing:
 
-- `fix:` releases 0.0.X
-- `feat:` releases 0.X.0
-- inlcuding `BREAKING_CHANGE:` in the body of your commit message releases X.0.0
+```shell
+yarn changeset:add
+```
+
+Follow the prompt to flag which packages need to update although we keep all our packages at the same version.
+
+Then you'll run:
+
+```shell
+yarn vers
+```
+
+This will update all the packages correctly according to what version you just set with the `add` script & possibly update the deps within those packages.
+
+Finally:
+
+```shell
+yarn release
+```
+
+This will build the packages, publish them & push the tags to github to signify a new release. Please then update the `releases` on github.
