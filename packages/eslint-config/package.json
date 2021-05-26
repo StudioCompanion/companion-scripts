@@ -1,6 +1,6 @@
 {
   "name": "@studiocompanion/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration for companion projects in TS & JS react",
   "main": "dist/studiocompanion-eslint-config.cjs.js",
   "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
