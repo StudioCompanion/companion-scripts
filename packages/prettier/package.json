@@ -1,6 +1,6 @@
 {
   "name": "@studiocompanion/prettier",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Prettier configuration for companion projects",
   "main": "dist/studiocompanion-prettier.cjs.js",
   "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
