@@ -1,8 +1,31 @@
-# config options: https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-and-disabling-version-updates
+name: Update Dependencies
+on:
+  schedule:
+    # https://crontab.guru/#0_0_*_*_WED,SAT
+    # Run every Wednesday and Saturday at 00:00
+    # 0 0 * * WED,SAT
+    - cron: '0 0 * * WED,SAT'
 
-version: 2
-updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
-    schedule:
-      interval: 'weekly'
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    name: Update Dependencies
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
+      - name: Check outdated dependencies and prepare
+        run: |
+          git config user.name 'Dependabot'
+          git config user.email 'dependabot@users.noreply.github.com'
+          yarn outdated || yarn upgrade && git add . && git commit -m "Update Dependencies"
+      - name: Create PR
+        if: ${{ success() }}
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Update Dependencies
+          body: |
+            Automatic dependencies upgrade.
+            Note: major version updates were not installed. After merging this PR run yarn outdate to see if there is any major version.
+          branch: update-dependencies
+          branch-suffix: timestamp
+          delete-branch: true
