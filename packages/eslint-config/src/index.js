@@ -5,13 +5,12 @@ module.exports = {
     node: true,
   },
   extends: [
-    'prettier',
-    'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'prettier',
   ],
-  plugins: ['@typescript-eslint', 'react', 'prettier', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'react', 'react-hooks', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
