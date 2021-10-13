@@ -1,5 +1,17 @@
 # @studiocompanion/scripts
 
+## 1.2.0
+
+### Minor Changes
+
+- eslint-config updates
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @studiocompanion/eslint-config@1.2.0
+  - @studiocompanion/prettier@1.2.0
+
 ## 1.1.0
 
 ### Minor Changes

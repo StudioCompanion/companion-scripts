@@ -1,9 +1,12 @@
 {
   "name": "@studiocompanion/scripts",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Complete scripts package for Companion projects",
   "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "preconstruct": {
     "entrypoints": [
       "eslint.js",
@@ -11,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@studiocompanion/eslint-config": "^1.1.0",
-    "@studiocompanion/prettier": "^1.1.0"
+    "@studiocompanion/eslint-config": "^1.2.0",
+    "@studiocompanion/prettier": "^1.2.0"
   }
 }

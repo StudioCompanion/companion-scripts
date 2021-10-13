@@ -1,5 +1,11 @@
 # @studiocompanion/prettier
 
+## 1.2.0
+
+### Minor Changes
+
+- eslint-config updates
+
 ## 1.1.0
 
 ### Minor Changes
