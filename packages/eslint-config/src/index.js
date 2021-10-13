@@ -41,5 +41,8 @@ module.exports = {
       { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
     ],
     'react/prop-types': 'off',
+    'react/jsx-key': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react/display-name': 'off',
   },
 }
