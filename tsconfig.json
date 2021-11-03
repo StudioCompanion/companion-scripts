@@ -1,22 +1,22 @@
 {
-    "compilerOptions": {
-        "outDir": "./built",
-      "target": "es6",
-      "module": "commonjs",
-      "lib": ["DOM"],
-      "jsx": "react",
-      "downlevelIteration": true,
-      "strict": true,
-      "noUnusedLocals": true,
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "skipLibCheck": true,
-      "forceConsistentCasingInFileNames": true,
-      "noImplicitAny": true,
-      "baseUrl": "./",
-      "allowJs": true,
-    },
-    "include": ["packages/**/*"],
-    "exclude": ["**/dist/**/*"]
-  }
+  "compilerOptions": {
+    "outDir": "./built",
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["DOM"],
+    "jsx": "react",
+    "downlevelIteration": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "baseUrl": "./",
+    "allowJs": true
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["**/dist/**/*"]
+}
