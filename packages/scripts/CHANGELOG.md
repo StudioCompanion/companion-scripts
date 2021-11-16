@@ -1,5 +1,14 @@
 # @studiocompanion/scripts
 
+## 1.2.2
+
+### Patch Changes
+
+- update eslint-plugin-react-hooks and others
+- Updated dependencies
+  - @studiocompanion/eslint-config@1.2.2
+  - @studiocompanion/prettier@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

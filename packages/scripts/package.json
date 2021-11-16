@@ -1,6 +1,6 @@
 {
   "name": "@studiocompanion/scripts",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Complete scripts package for Companion projects",
   "author": "Josh <37798644+joshuaellis@users.noreply.github.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
     ]
   },
   "dependencies": {
-    "@studiocompanion/eslint-config": "^1.2.1",
-    "@studiocompanion/prettier": "^1.2.1"
+    "@studiocompanion/eslint-config": "^1.2.2",
+    "@studiocompanion/prettier": "^1.2.2"
   }
 }

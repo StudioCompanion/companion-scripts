@@ -1,5 +1,11 @@
 # @studiocompanion/eslint-config
 
+## 1.2.2
+
+### Patch Changes
+
+- update eslint-plugin-react-hooks and others
+
 ## 1.2.1
 
 ### Patch Changes
